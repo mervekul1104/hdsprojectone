@@ -1,0 +1,24 @@
+
+📊 KONUŞMACI DİARİZASYON ANALİZ RAPORU
+====================================
+Tarih: 2025-09-30 15:41:13
+Toplam Segment: 31
+Toplam Süre: 300.28 saniye
+
+KONUŞMACI İSTATİSTİKLERİ:
+
+  UNKNOWN:
+    - Segment Sayısı: 31
+    - Toplam Süre: 300.28 saniye
+    - Ortalama Pitch: 253.4 Hz
+    - Tahmin Edilen Cinsiyet(ler): KADIN, BELIRSIZ
+
+CİNSİYET DAĞILIMI:
+
+  KADIN:
+    - Segment Sayısı: 23
+    - Toplam Süre: 222.79 saniye
+
+  BELIRSIZ:
+    - Segment Sayısı: 8
+    - Toplam Süre: 77.49 saniye

@@ -1,0 +1,28 @@
+supported_formats:
+  - ".wav"
+  - ".mp3" 
+  - ".flac"
+  - ".m4a"
+  - ".aac"
+
+audio_parameters:
+  sample_rate: 16000
+  channels: 1
+  bit_depth: 16
+  format: "WAV"
+
+preprocessing:
+  noise_reduction: true
+  normalization: true
+  silence_removal: true
+  pre_emphasis: true
+
+segment_parameters:
+  min_duration: 1.0
+  max_duration: 10.0
+  overlap: 0.1
+
+export:
+  format: "WAV"
+  sample_rate: 16000
+  bit_depth: 16

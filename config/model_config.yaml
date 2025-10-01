@@ -1,0 +1,65 @@
+audio:
+  sample_rate: 16000
+  frame_length: 0.025
+  hop_length: 0.01
+  channels: 1
+  min_segment_length: 1.0
+  max_segment_length: 10.0
+
+features:
+  mfcc:
+    n_mfcc: 13
+    n_fft: 2048
+    hop_length: 512
+  pitch:
+    fmin: 50
+    fmax: 400
+  spectral:
+    n_fft: 2048
+    hop_length: 512
+
+clustering:
+  algorithm: "dbscan"
+  eps: 0.5
+  min_samples: 2
+  metric: "euclidean"
+
+gender_classification:
+  male_pitch_range: [85, 180]
+  female_pitch_range: [165, 255]
+  uncertain_range: [150, 180]
+
+segmentation:
+  min_segment_length: 1.0
+  max_segment_length: 10.0
+  silence_threshold: 0.01
+  min_silence_length: 0.5
+
+preprocessing:
+  noise_reduction: true
+  normalization: true
+  pre_emphasis: true
+  volume_balancing: true
+
+advanced_analysis:
+  similarity_threshold: 0.7
+  min_speaker_segments: 2
+  confidence_threshold: 0.6
+  
+speaker_verification:
+  enabled: true
+  method: "cosine_similarity"
+  threshold: 0.7
+
+gender_detection:
+  use_advanced_features: true
+  pitch_weight: 0.6
+  spectral_weight: 0.4
+
+clustering:
+  algorithm: "auto"  # Otomatik seçim
+  min_speakers: 1
+  max_speakers: 8
+
+advanced_analysis:
+  similarity_threshold: 0.5  # Daha düşük benzerlik eşiği
