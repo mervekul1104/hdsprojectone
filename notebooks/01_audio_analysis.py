@@ -62,10 +62,10 @@ def main():
     print("✅ Dalga formu görseli kaydedildi")
     
     # Segment bilgilerini göster
-    print("\n📊 SEGMENT BİLGİLERİ:")
     for i, segment in enumerate(segments[:10]):
-        print(f"Segment {i}: {segment['start_time']:.2f}s - {segment['end_time']:.2f}s "
-              f"({segment['duration']:.2f}s)")
+        print(f"Segment {i+1}: {segment['start_time']:.2f}s - {segment['end_time']:.2f}s "
+            f"({segment['duration']:.2f}s)")
+
     
     # Özellik çıkarımı
     feature_extractor = FeatureExtractor(sample_rate=sr)

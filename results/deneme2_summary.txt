@@ -1,0 +1,28 @@
+
+📊 KONUŞMACI DİARİZASYON ANALİZ RAPORU
+====================================
+Tarih: 2025-10-02 16:43:58
+Toplam Segment: 22
+Toplam Süre: 151.23 saniye
+
+KONUŞMACI İSTATİSTİKLERİ:
+
+  SPK_02:
+    - Segment Sayısı: 14
+    - Toplam Süre: 126.30 saniye
+    - Ortalama Pitch: 226.7 Hz
+
+  SPK_01:
+    - Segment Sayısı: 3
+    - Toplam Süre: 4.57 saniye
+    - Ortalama Pitch: 118.7 Hz
+
+  SPK_03:
+    - Segment Sayısı: 4
+    - Toplam Süre: 18.19 saniye
+    - Ortalama Pitch: 247.1 Hz
+
+  SPK_04:
+    - Segment Sayısı: 1
+    - Toplam Süre: 2.17 saniye
+    - Ortalama Pitch: 332.4 Hz

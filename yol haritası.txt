@@ -11,7 +11,6 @@ speaker_diarization_project/
 │   ├── 🐍 audio_processor.py         # Ses işleme modülü
 │   ├── 🐍 feature_extractor.py       # Özellik çıkarımı
 │   ├── 🐍 speaker_clustering.py      # Konuşmacı kümeleme
-│   ├── 🐍 gender_classifier.py       # Cinsiyet sınıflandırma
 │   ├── 🐍 main.py                    # Ana uygulama
 │   └── 🐍 utils.py                   # Yardımcı fonksiyonlar
 │

@@ -36,11 +36,6 @@ config_content = {
         'min_samples': 2,
         'metric': "euclidean"
     },
-    'gender_classification': {
-        'male_pitch_range': [85, 180],
-        'female_pitch_range': [165, 255],
-        'uncertain_range': [150, 180]
-    },
     'segmentation': {
         'min_segment_length': 1.0,
         'max_segment_length': 10.0,

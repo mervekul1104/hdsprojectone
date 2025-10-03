@@ -99,11 +99,10 @@ def main():
         print("="*60)
         
         # İlk 10 sonucu göster
-        for i, result in enumerate(results[:10]):
-            print(f"{i+1:2d}. {result['start_time']:6.1f}s - {result['end_time']:6.1f}s | "
-                  f"{result['speaker_id']:8} | {result['gender']:8} | "
-                  f"Pitch: {result['pitch_mean']:5.1f}Hz")
-        
+        print(f"{i+1:2d}. {result['start_time']:6.1f}s - {result['end_time']:6.1f}s | "
+      f"{result['speaker_id']:8} | "
+      f"Pitch: {result['pitch_mean']:5.1f}Hz")
+
         if len(results) > 10:
             print(f"... ve {len(results) - 10} segment daha")
         
